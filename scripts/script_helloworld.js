@@ -1,0 +1,1 @@
+document.writeln("<br>from external js <br> hello world")
