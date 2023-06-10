@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>operator</title>
+  </head>
+  <body>
+    <script>
+      let oriResult;
+      //operator penambahan
+      let result = 1 + 2; //3
+      document.writeln("hasil tambah 1+2 = " + result);
+      oriResult = result;
+
+      //atau bisa juga dengan lebih singkat menggunakan
+      //assigment operator jika operator sudah memiliki nilai awal
+      result += 2; //5
+      document.write("<br>");
+      document.writeln(
+        "hasil dari penambahan assisgment op " + oriResult + " + 2 = " + result
+      );
+      oriResult = result;
+
+      document.write("<br><br>");
+
+      //pengurangan
+      result = result - 1; //4
+      document.writeln("hasil pengurangan " + oriResult + " - 1 = " + result);
+      oriResult = result;
+
+      //assigment operator
+      result -= 1; //3
+      document.write("<br>");
+      document.writeln(
+        "hasil dari pengurangan assisgment op " + oriResult + " - 1 = " + result
+      );
+      oriResult = result;
+
+      document.write("<br><br>");
+
+      //perkalian
+      result = result * 3; //4
+      document.writeln("hasil perkalian " + oriResult + " x 3 = " + result);
+      oriResult = result;
+
+      //assigment operator
+      result *= 2; //3
+      document.write("<br>");
+      document.writeln(
+        "hasil dari perkalian assisgment op " + oriResult + " x 2 = " + result
+      );
+      oriResult = result;
+
+      document.write("<br><br>");
+
+      //pembagian
+      result = result / 3; //4
+      document.writeln("hasil pembagian " + oriResult + " : 3 = " + result);
+      oriResult = result;
+
+      //assigment operator
+      result /= 2; //3
+      document.write("<br>");
+      document.writeln(
+        "hasil dari perkalian assisgment op " + oriResult + " : 2 = " + result
+      );
+      oriResult = result;
+    </script>
+  </body>
+</html>
