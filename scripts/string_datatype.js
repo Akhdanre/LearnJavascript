@@ -10,3 +10,10 @@ document.write("home\\Learn\\JavaScript \n");
 document.write("\"Mahasiswa dari Polije\"\n");
 document.write("\'Belajar JavaScript\'");
 document.writeln("</textarea>");
+
+
+//String Template
+ const name = "ouken zeuma sio";
+ const template = `Name : ${name}`;
+
+ console.info(template);
